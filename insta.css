@@ -503,25 +503,30 @@ body {
     /* margin-bottom: 12px; */
 
 }
-.acc-button{
-border: none;
-background: none;
+
+.acc-button {
+    border: none;
+    background: none;
 
 }
-.acc-button:active{
+
+.acc-button:active {
     opacity: 0.4;
 }
-.switch{
+
+.switch {
     background-color: #fff;
     color: rgb(0, 191, 255);
     border: none;
     margin-top: 2px;
     margin-left: 34px;
 }
-.switch:hover{
+
+.switch:hover {
     color: darkblue;
 }
-.switch:active{
+
+.switch:active {
     color: rgba(0, 0, 139, 0.131);
 }
 
@@ -536,18 +541,39 @@ background: none;
     margin-top: 42px;
     margin-left: 56px;
 }
-
-.acc-text {
-    
-margin-top: 6px;
-margin-left: 18px;
+.RS-acc-end {
+    display: flex;
+    justify-content: start;
+    margin-top: 42px;
+    margin-left: 56px;
 }
 
-.RS-acc-center{
+.acc-text {
+    margin-top: 6px;
+    margin-left: 18px;
+}
+
+.RS-acc-center {
     display: flex;
     margin-top: 22px;
     margin-left: 70px;
+}
 
+#sfu {
+    color: grey;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sa:hover {
+    color: grey;
+}
+
+#sa {
+    cursor: pointer;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 6px;
 }
 
 #own-acc {
