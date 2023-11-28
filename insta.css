@@ -10,6 +10,12 @@ body {
     width: 100%;
 }
 
+.white {
+    width: 46vw;
+    height: 100vh;
+    background: #ffffff00;
+}
+
 .main-insta-div {
     display: flex;
 }
@@ -25,11 +31,9 @@ body {
 
 .leftside-nav-bar {
     height: 100vh;
-    width: 235px;
-    /* position: fixed; */
-    background: #ffffff;
-    border: 1px solid lightgray;
+    position: fixed;
     padding: 10px;
+    border: 1px solid lightgray;
 }
 
 #insta-icon {
@@ -69,6 +73,7 @@ body {
 
 .mybutton {
     background-color: #fff;
+    transition: 0.1s;
     border: none;
     margin-top: 23;
     width: 210px;
@@ -81,7 +86,7 @@ body {
     /* color: #939393; */
     color: rgb(255, 255, 255);
     background-image: linear-gradient(to right, rgb(207, 19, 113) 0%, rgb(79, 12, 248) 50%, rgb(220, 15, 220) 100%);
-    box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+    box-shadow: rgb(52, 52, 52) 5px 5px 15px 5px;
     display: inline-block;
     border-radius: 10px;
     border: none;
@@ -89,6 +94,7 @@ body {
 
 #home-icon {
     /* background-color: #201e1e; */
+    transition: 0.1s;
     /* border-radius: 6px; */
     width: 89px;
     display: flex;
@@ -106,6 +112,7 @@ body {
 #search-icon {
     /* background-color: #201e1e; */
     /* border-radius: 6px; */
+    transition: 0.1s;
     width: 98px;
     display: flex;
     justify-content: center;
@@ -126,6 +133,7 @@ body {
     width: 104px;
 
     display: flex;
+    transition: 0.1s;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -141,6 +149,7 @@ body {
 
     display: flex;
     justify-content: center;
+    transition: 0.1s;
     align-items: center;
     cursor: pointer;
     /* padding: 30px 22px; */
@@ -156,6 +165,7 @@ body {
 
     display: flex;
     justify-content: center;
+    transition: 0.1s;
     align-items: center;
     cursor: pointer;
     /* padding: 30px 22px; */
@@ -167,6 +177,7 @@ body {
     /* background-color: #201e1e; */
     /* border-radius: 6px; */
     width: 132px;
+    transition: 0.1s;
 
     display: flex;
     justify-content: center;
@@ -183,6 +194,7 @@ body {
     /* border-radius: 6px; */
     width: 95px;
 
+    transition: 0.1s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -200,6 +212,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: 0.1s;
     cursor: pointer;
     /* padding: 30px 22px; */
     /* margin-bottom: 12px; */
@@ -219,6 +232,7 @@ body {
     /* border-radius: 6px; */
     width: 120px;
     display: flex;
+    transition: 0.1s;
     justify-content: center;
     align-items: center;
     cursor: pointer;
@@ -253,9 +267,14 @@ body {
 }
 
 
-.insta-half-pg {
+.main-insta-middle-div {
+    width: 52vw;
+    height: 100vh;
+}
+
+.insta-full-story-bar {
     width: 50vw;
-    height: 100px;
+    height: 20vh;
     overflow: auto;
     /* flex-wrap: wrap-reverse; */
     /* justify-content: start; */
@@ -504,6 +523,16 @@ body {
 
 }
 
+
+
+
+
+
+
+
+
+
+
 .acc-button {
     border: none;
     background: none;
@@ -526,11 +555,11 @@ body {
 }
 
 .switch:active {
-    color: rgba(0, 0, 139, 0.131);
+    color: rgb(0, 0, 139, 0.131);
 }
 
 .right-side-acc-pg {
-    width: 375px;
+    width: 72vw;
     height: 100vh;
 }
 
@@ -584,36 +613,55 @@ body {
 }
 
 
-    .Suggested-row {
-        display: flex;
-        justify-content: start;
-        margin-left: 44px;
-    }
+.Suggested-row {
+    display: flex;
+    justify-content: start;
+    margin-left: 44px;
+}
 
-    .follow {
-        background-color: #fff0;
-        color: rgb(0, 191, 255);
-        border: none;
-        margin-left: 18px;
-    }
-    .follow:hover {
-        color: darkblue;
-    }
-    
-    .follow:active {
-        color: rgba(0, 0, 139, 0.131);
-    }
+.follow {
+    background-color: #fff0;
+    color: rgb(0, 191, 255);
+    border: none;
+    margin-left: 18px;
+}
 
-    #talkative_parraot>img {
-        display: flex;
-        width: 50px;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-        margin: 5px;
-    
-        border-radius: 444px;
-        /* padding: 30px 22px; */
-        /* margin-bottom: 12px; */
-    
-    }
+.follow:hover {
+    color: darkblue;
+}
+
+.follow:active {
+    color: rgba(0, 0, 139, 0.131);
+}
+
+#talkative_parraot>img {
+    display: flex;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px;
+
+    border-radius: 444px;
+    /* padding: 30px 22px; */
+    /* margin-bottom: 12px; */
+}
+
+#own-acc {
+    position: relative;
+}
+
+.own-profile {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    top: 55px;
+    right: 10px;
+    display: none;
+}
+
+#own-acc:hover .own-profile {
+    /* visibility: visible; */
+    background-color: #ff0000;
+    display: block ;
+}
