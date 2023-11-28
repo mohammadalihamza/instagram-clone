@@ -544,7 +544,7 @@ body {
 .RS-acc-end {
     display: flex;
     justify-content: start;
-    margin-top: 42px;
+    margin-top: 16px;
     margin-left: 56px;
 }
 
