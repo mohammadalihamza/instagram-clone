@@ -305,6 +305,10 @@ body {
 
 }
 
+#burger-pro>img:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
 #burger-pro>img {
     width: 70px;
     background: rgb(255, 0, 0);
@@ -325,6 +329,10 @@ body {
 
 }
 
+#fox360-pro>img:hover { 
+    scale: 1.1;
+    transition: 0.5s;
+}
 #fox360-pro>img {
     width: 70px;
     background: rgb(255, 0, 0);
@@ -343,6 +351,11 @@ body {
     /* padding: 30px 22px; */
     /* margin-bottom: 12px; */
 
+}
+
+#dolfins-pro>img:hover{
+    scale: 1.1;
+    transition: 0.5s;
 }
 
 #dolfins-pro>img {
@@ -365,6 +378,12 @@ body {
 
 }
 
+#poppat-pro>img:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
+
+
 #poppat-pro>img {
     width: 70px;
     background: rgb(255, 0, 0);
@@ -385,6 +404,10 @@ body {
 
 }
 
+#tiger-cub-pro>img:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
 #tiger-cub-pro>img {
     width: 70px;
     background: rgb(255, 0, 0);
@@ -405,6 +428,11 @@ body {
 
 }
 
+
+#cheetah-pro>img:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
 
 #cheetah-pro>img {
     width: 70px;
@@ -427,6 +455,10 @@ body {
 }
 
 
+#mini-zoo-pro>img:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
 #mini-zoo-pro>img {
     width: 70px;
     background: rgb(255, 0, 0);
@@ -447,6 +479,10 @@ body {
 
 }
 
+#baby-duck-pro>img:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
 #baby-duck-pro>img {
     width: 70px;
     background: rgb(255, 0, 0);
@@ -466,6 +502,10 @@ body {
 
 }
 
+#white-tiger-pro>img:hover {
+    scale: 1.1;
+    transition: 0.5s;
+}
 #white-tiger-pro>img {
     width: 70px;
     background: rgb(255, 0, 0);
@@ -484,6 +524,10 @@ body {
 
 }
 
+#cute-parrot-pro>img:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
 #cute-parrot-pro>img {
     background: rgb(255, 0, 0);
     background: -moz-linear-gradient(top, rgb(255, 0, 0) 0%, rgb(203, 0, 189) 40%, rgb(255, 170, 0) 100%);
@@ -501,6 +545,11 @@ body {
     /* padding: 30px 22px; */
     /* margin-bottom: 12px; */
 
+}
+
+#baby-duck-pro>img:hover {
+    scale: 1.1;
+    transition: 0.5s;
 }
 
 #baby-duck-pro>img {
